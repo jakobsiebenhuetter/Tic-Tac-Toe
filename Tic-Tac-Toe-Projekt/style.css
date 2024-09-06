@@ -1,0 +1,33 @@
+
+body {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+
+}
+
+div {
+    width: 402px;
+    margin: 100px auto;
+}
+
+ul {
+    width: 402px;
+   padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+ 
+}
+
+li {
+    background-color: cadetblue;
+    list-style-type: none;
+    padding: 50px;
+    height: 18px;
+    width: 30px;
+    text-align: center;
+    border: 2px solid rebeccapurple;
+
+}
+
